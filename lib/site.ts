@@ -8,6 +8,8 @@ export const SITE = {
 
   email: "prajnath704@gmail.com",
 
+  resume: "/resume.pdf",
+
   socials: {
     github: "https://github.com/rajnathprasad",
     linkedin: "https://www.linkedin.com/in/rajnathprasad/",

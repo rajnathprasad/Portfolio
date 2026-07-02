@@ -1,5 +1,5 @@
-export default function Home(){
-  return <main>
-    Hello Rajnath
-  </main>
+import HomePage from "@/components/sections/HomePage";
+
+export default function Home() {
+  return <HomePage />;
 }

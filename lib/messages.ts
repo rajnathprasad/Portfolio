@@ -1,0 +1,15 @@
+export const RANDOM_MESSAGES: string[] = [
+  "No more sections. No hidden pricing. No pop-ups. Just a sincere thank you for your time.",
+  "If you're a recruiter, I'd love to hear your feedback. If you're a developer, let's build something together.",
+  "Everything you saw here started as an empty folder and a lot of 'I'll figure it out later.'",
+  "The best projects usually begin with a simple 'What if...?' This portfolio was one of them.",
+  "Still here? That tells me you appreciate details. I like people like that.",
+  "This portfolio isn't the finish line—it's just a snapshot of where I am today. The next version is already in my head.",
+  "Behind every smooth animation is at least one bug that made me question my life choices.",
+  "If something here inspired you, that's probably the best compliment I could receive.",
+  "Thanks for spending a few minutes exploring my work. It genuinely means more than you know.",
+  "Curiosity brought you here. I hope it takes you somewhere even more interesting next.",
+  "If we ever work together, remind me you found this message. I'll know you don't skip the details.",
+  "Now close this tab and go build something awesome. I'll be doing the same.",
+  "See you on GitHub... or maybe in an interview someday.",
+];
