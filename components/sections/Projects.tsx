@@ -12,7 +12,7 @@ export default function Projects() {
           Projects
         </p>
         <h2 className="mt-4 max-w-2xl text-3xl font-semibold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
-          Things I&apos;ve shipped.
+          Things I&apos;ve Built.
         </h2>
 
         <div className="mt-12 flex flex-col gap-16 sm:mt-16 sm:gap-24">
