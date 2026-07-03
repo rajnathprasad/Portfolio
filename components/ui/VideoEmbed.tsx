@@ -19,7 +19,7 @@ export default function VideoEmbed({ videoUrl, title }: VideoEmbedProps) {
     return (
       <div className="relative aspect-video w-full overflow-hidden rounded-2xl bg-zinc-950">
         <iframe
-          src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&iv_load_policy=3&playsinline=1&color=white`}
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&iv_load_policy=0&playsinline=1&color=white`}
           title={title}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
