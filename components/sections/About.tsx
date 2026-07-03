@@ -6,9 +6,9 @@ import { ABOUT } from "@/lib/about";
 
 export default function About() {
   return (
-    <section id="about" className="bg-black py-32">
-      <div className="mx-auto w-full max-w-5xl px-8">
-        <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
+    <section id="about" className="bg-black py-20 sm:py-32">
+      <div className="mx-auto w-full max-w-5xl px-6 sm:px-8">
+        <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Left — Photo */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -17,7 +17,7 @@ export default function About() {
             transition={{ duration: 0.7 }}
             className="flex justify-center lg:justify-start"
           >
-            <div className="relative h-[520px] w-[400px] overflow-hidden rounded-3xl border border-zinc-800">
+            <div className="relative h-[380px] w-full max-w-sm overflow-hidden rounded-3xl border border-zinc-800 sm:h-[460px] sm:max-w-[380px] lg:h-[520px] lg:w-[400px]">
               <Image
                 src="/images/about.jpeg"
                 alt="Rajnath Prasad"
@@ -44,23 +44,20 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="mt-4 text-4xl font-semibold leading-tight tracking-tight text-white lg:text-5xl"
+              className="mt-4 text-3xl font-semibold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl"
             >
               {ABOUT.heading}
             </motion.h2>
 
-            <div className="mt-8 space-y-6">
+            <div className="mt-6 space-y-5 sm:mt-8 sm:space-y-6">
               {ABOUT.paragraphs.map((paragraph, index) => (
                 <motion.p
                   key={index}
                   initial={{ opacity: 0, y: 12 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-100px" }}
-                  transition={{
-                    duration: 0.6,
-                    delay: 0.15 + index * 0.08,
-                  }}
-                  className="text-lg leading-relaxed text-zinc-400"
+                  transition={{ duration: 0.6, delay: 0.15 + index * 0.08 }}
+                  className="text-base leading-relaxed text-zinc-400 sm:text-lg"
                 >
                   {paragraph}
                 </motion.p>

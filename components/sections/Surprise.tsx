@@ -16,15 +16,12 @@ export default function Surprise() {
 
   useEffect(() => {
     if (message && messageRef.current) {
-      messageRef.current.scrollIntoView({
-        behavior: "smooth",
-        block: "center",
-      });
+      messageRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
     }
   }, [message]);
 
   return (
-    <section className="flex flex-col items-center justify-center gap-8 bg-black px-8 py-32 text-center">
+    <section className="flex flex-col items-center justify-center gap-8 bg-black px-6 py-20 text-center sm:px-8 sm:py-32">
       <p className="max-w-md text-sm uppercase tracking-[0.2em] text-zinc-500">
         You&apos;ve made it all the way down here
       </p>
@@ -33,7 +30,7 @@ export default function Surprise() {
         <button
           type="button"
           onClick={revealMessage}
-          className="rounded-full border border-zinc-700 px-8 py-4 text-sm font-medium text-white transition-all duration-300 hover:border-violet-500 hover:bg-white/5"
+          className="rounded-full border border-zinc-700 px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:border-violet-500 hover:bg-white/5 sm:px-8 sm:py-4"
         >
           Click here for a message
         </button>
@@ -48,9 +45,9 @@ export default function Surprise() {
             animate={{ opacity: 1, y: 0, rotate: -2, scale: 1 }}
             exit={{ opacity: 0, y: -30, rotate: 4 }}
             transition={{ type: "spring", stiffness: 120, damping: 14 }}
-            className="max-w-md rounded-sm bg-zinc-100 px-8 py-10 text-left shadow-2xl"
+            className="w-full max-w-md rounded-sm bg-zinc-100 px-6 py-8 text-left shadow-2xl sm:px-8 sm:py-10"
           >
-            <p className="font-serif text-lg italic leading-relaxed text-zinc-800">
+            <p className="font-serif text-base italic leading-relaxed text-zinc-800 sm:text-lg">
               {message}
             </p>
           </motion.div>

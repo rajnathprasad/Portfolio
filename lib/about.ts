@@ -2,9 +2,8 @@ export const ABOUT = {
   eyebrow: "About",
   heading: "A bit about me.",
   paragraphs: [
-    "I'm a 3rd-year B.Tech Computer Science student at Lakshmi Narain College of Technology Excellence, Bhopal. I'm originally from Ranchi, Jharkhand, and currently exploring everything Bhopal has to offer.",
-    "Outside of code, I sing, edit videos, and make tech content — from educational breakdowns to informative and fun reels. I'm passionate about building new things and genuinely eager to keep learning new technologies, whatever they turn out to be.",
-    "Separately, I run a YouTube channel teaching Python, SQL, and core CS fundamentals — it's grown to 10,000+ subscribers across 50+ videos, helping students simplify concepts I once found confusing myself.",
+    "I'm a 3rd-year B.Tech Computer Science student at Lakshmi Narain College of Technology Excellence, Bhopal, originally from Ranchi, Jharkhand. I enjoy building projects, exploring new technologies, and creating tech content.",
+    "Outside of coding, I sing, edit videos, and make educational and fun tech videos. I also run a YouTube channel with 10,000+ subscribers and 50+ videos, sharing Python, SQL, and core CS concepts in a simple, approachable way.",
   ],
   highlights: [
     { label: "YouTube Subscribers", value: "10K+" },
